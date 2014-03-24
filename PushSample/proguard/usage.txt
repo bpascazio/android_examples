@@ -1,0 +1,911 @@
+com.bytefly.adventuremap.IntentReceiver:
+    private static final java.lang.String logTag
+com.bytefly.adventuremap.Manifest
+com.bytefly.adventuremap.Manifest$permission
+com.bytefly.adventuremap.R
+com.bytefly.adventuremap.R$attr
+com.bytefly.adventuremap.R$color
+com.bytefly.adventuremap.R$drawable
+com.bytefly.adventuremap.R$id
+com.bytefly.adventuremap.R$layout
+com.bytefly.adventuremap.R$raw
+com.bytefly.adventuremap.R$string
+com.bytefly.adventuremap.R$style
+com.google.protobuf.AbstractMessageLite:
+    84:92:public void writeDelimitedTo(java.io.OutputStream)
+com.google.protobuf.AbstractMessageLite$Builder:
+    138:145:public com.google.protobuf.AbstractMessageLite$Builder mergeFrom(com.google.protobuf.ByteString,com.google.protobuf.ExtensionRegistryLite)
+    178:178:public com.google.protobuf.AbstractMessageLite$Builder mergeFrom(byte[],com.google.protobuf.ExtensionRegistryLite)
+    186:194:public com.google.protobuf.AbstractMessageLite$Builder mergeFrom(byte[],int,int,com.google.protobuf.ExtensionRegistryLite)
+    201:204:public com.google.protobuf.AbstractMessageLite$Builder mergeFrom(java.io.InputStream)
+    211:214:public com.google.protobuf.AbstractMessageLite$Builder mergeFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite)
+    276:283:public boolean mergeDelimitedFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite)
+    288:288:public boolean mergeDelimitedFrom(java.io.InputStream)
+    99:99:public com.google.protobuf.MessageLite$Builder mergeFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite)
+    99:99:public com.google.protobuf.MessageLite$Builder mergeFrom(java.io.InputStream)
+    99:99:public com.google.protobuf.MessageLite$Builder mergeFrom(byte[],int,int,com.google.protobuf.ExtensionRegistryLite)
+    99:99:public com.google.protobuf.MessageLite$Builder mergeFrom(byte[],com.google.protobuf.ExtensionRegistryLite)
+    99:99:public com.google.protobuf.MessageLite$Builder mergeFrom(byte[],int,int)
+    99:99:public com.google.protobuf.MessageLite$Builder mergeFrom(byte[])
+    99:99:public com.google.protobuf.MessageLite$Builder mergeFrom(com.google.protobuf.ByteString,com.google.protobuf.ExtensionRegistryLite)
+    99:99:public com.google.protobuf.MessageLite$Builder mergeFrom(com.google.protobuf.ByteString)
+    99:99:public com.google.protobuf.MessageLite$Builder mergeFrom(com.google.protobuf.CodedInputStream)
+    99:99:public com.google.protobuf.MessageLite$Builder clone()
+com.google.protobuf.AbstractMessageLite$Builder$LimitedInputStream
+com.google.protobuf.ByteString:
+    60:60:public byte byteAt(int)
+    74:74:public boolean isEmpty()
+    107:109:public static com.google.protobuf.ByteString copyFrom(java.nio.ByteBuffer,int)
+    117:117:public static com.google.protobuf.ByteString copyFrom(java.nio.ByteBuffer)
+    126:126:public static com.google.protobuf.ByteString copyFrom(java.lang.String,java.lang.String)
+    135:137:public static com.google.protobuf.ByteString copyFromUtf8(java.lang.String)
+    150:166:public static com.google.protobuf.ByteString copyFrom(java.util.List)
+    179:180:public void copyTo(byte[],int)
+    193:194:public void copyTo(byte[],int,int,int)
+    211:212:public java.nio.ByteBuffer asReadOnlyByteBuffer()
+    221:221:public java.lang.String toString(java.lang.String)
+    229:231:public java.lang.String toStringUtf8()
+    296:296:public java.io.InputStream newInput()
+    317:317:public static com.google.protobuf.ByteString$Output newOutput(int)
+    324:324:public static com.google.protobuf.ByteString$Output newOutput()
+com.google.protobuf.ByteString$Output
+com.google.protobuf.CodedInputStream:
+    private static final int DEFAULT_RECURSION_LIMIT
+    private static final int DEFAULT_SIZE_LIMIT
+    private static final int BUFFER_SIZE
+    160:160:public double readDouble()
+    165:165:public float readFloat()
+    170:170:public long readUInt64()
+    175:175:public long readInt64()
+    185:185:public long readFixed64()
+    190:190:public int readFixed32()
+    195:195:public boolean readBool()
+    218:226:public void readGroup(int,com.google.protobuf.MessageLite$Builder,com.google.protobuf.ExtensionRegistryLite)
+    244:245:public void readUnknownGroup(int,com.google.protobuf.MessageLite$Builder)
+    280:280:public int readUInt32()
+    293:293:public int readSFixed32()
+    298:298:public long readSFixed64()
+    303:303:public int readSInt32()
+    308:308:public long readSInt64()
+    359:363:static int readRawVarint32(java.io.InputStream)
+    373:399:static int readRawVarint32(int,java.io.InputStream)
+    404:414:public long readRawVarint64()
+    460:460:public static int decodeZigZag32(int)
+    474:474:public static long decodeZigZag64(long)
+    533:539:public int setRecursionLimit(int)
+    559:565:public int setSizeLimit(int)
+    572:573:public void resetSizeCounter()
+    632:637:public int getBytesUntilLimit()
+    654:654:public int getTotalBytesRead()
+com.google.protobuf.CodedOutputStream:
+    public static final int DEFAULT_BUFFER_SIZE
+    public static final int LITTLE_ENDIAN_32_SIZE
+    public static final int LITTLE_ENDIAN_64_SIZE
+    95:95:public static com.google.protobuf.CodedOutputStream newInstance(java.io.OutputStream)
+    136:138:public void writeDouble(int,double)
+    143:145:public void writeFloat(int,float)
+    150:152:public void writeUInt64(int,long)
+    157:159:public void writeInt64(int,long)
+    164:166:public void writeInt32(int,int)
+    171:173:public void writeFixed64(int,long)
+    178:180:public void writeFixed32(int,int)
+    185:187:public void writeBool(int,boolean)
+    199:202:public void writeGroup(int,com.google.protobuf.MessageLite)
+    214:215:public void writeUnknownGroup(int,com.google.protobuf.MessageLite)
+    234:236:public void writeUInt32(int,int)
+    251:253:public void writeSFixed32(int,int)
+    258:260:public void writeSFixed64(int,long)
+    265:267:public void writeSInt32(int,int)
+    272:274:public void writeSInt64(int,long)
+    283:287:public void writeMessageSetExtension(int,com.google.protobuf.MessageLite)
+    296:300:public void writeRawMessageSetExtension(int,com.google.protobuf.ByteString)
+    306:307:public void writeDoubleNoTag(double)
+    311:312:public void writeFloatNoTag(float)
+    316:317:public void writeUInt64NoTag(long)
+    321:322:public void writeInt64NoTag(long)
+    326:332:public void writeInt32NoTag(int)
+    336:337:public void writeFixed64NoTag(long)
+    341:342:public void writeFixed32NoTag(int)
+    346:347:public void writeBoolNoTag(boolean)
+    361:362:public void writeGroupNoTag(com.google.protobuf.MessageLite)
+    373:374:public void writeUnknownGroupNoTag(com.google.protobuf.MessageLite)
+    391:392:public void writeUInt32NoTag(int)
+    404:405:public void writeSFixed32NoTag(int)
+    409:410:public void writeSFixed64NoTag(long)
+    414:415:public void writeSInt32NoTag(int)
+    419:420:public void writeSInt64NoTag(long)
+    430:430:public static int computeDoubleSize(int,double)
+    438:438:public static int computeFloatSize(int,float)
+    446:446:public static int computeUInt64Size(int,long)
+    454:454:public static int computeInt64Size(int,long)
+    462:462:public static int computeInt32Size(int,int)
+    471:471:public static int computeFixed64Size(int,long)
+    480:480:public static int computeFixed32Size(int,int)
+    489:489:public static int computeBoolSize(int,boolean)
+    507:507:public static int computeGroupSize(int,com.google.protobuf.MessageLite)
+    521:521:public static int computeUnknownGroupSize(int,com.google.protobuf.MessageLite)
+    547:547:public static int computeUInt32Size(int,int)
+    565:565:public static int computeSFixed32Size(int,int)
+    574:574:public static int computeSFixed64Size(int,long)
+    582:582:public static int computeSInt32Size(int,int)
+    590:590:public static int computeSInt64Size(int,long)
+    600:600:public static int computeMessageSetExtensionSize(int,com.google.protobuf.MessageLite)
+    612:612:public static int computeRawMessageSetExtensionSize(int,com.google.protobuf.ByteString)
+    624:624:public static int computeDoubleSizeNoTag(double)
+    632:632:public static int computeFloatSizeNoTag(float)
+    640:640:public static int computeUInt64SizeNoTag(long)
+    648:648:public static int computeInt64SizeNoTag(long)
+    656:660:public static int computeInt32SizeNoTag(int)
+    669:669:public static int computeFixed64SizeNoTag(long)
+    677:677:public static int computeFixed32SizeNoTag(int)
+    685:685:public static int computeBoolSizeNoTag(boolean)
+    707:707:public static int computeGroupSizeNoTag(com.google.protobuf.MessageLite)
+    720:720:public static int computeUnknownGroupSizeNoTag(com.google.protobuf.MessageLite)
+    746:746:public static int computeUInt32SizeNoTag(int)
+    762:762:public static int computeSFixed32SizeNoTag(int)
+    770:770:public static int computeSFixed64SizeNoTag(long)
+    778:778:public static int computeSInt32SizeNoTag(int)
+    786:786:public static int computeSInt64SizeNoTag(long)
+    952:957:public void writeRawVarint64(long)
+    964:973:public static int computeRawVarint64Size(long)
+    978:982:public void writeRawLittleEndian32(int)
+    988:996:public void writeRawLittleEndian64(long)
+    1012:1012:public static int encodeZigZag32(int)
+    1027:1027:public static long encodeZigZag64(long)
+com.google.protobuf.CodedOutputStream$OutOfSpaceException:
+    private static final long serialVersionUID
+com.google.protobuf.ExtensionRegistryLite:
+    76:76:public static com.google.protobuf.ExtensionRegistryLite newInstance()
+    86:86:public com.google.protobuf.ExtensionRegistryLite getUnmodifiable()
+    101:101:public com.google.protobuf.GeneratedMessageLite$GeneratedExtension findLiteExtensionByNumber(com.google.protobuf.MessageLite,int)
+    109:113:public final void add(com.google.protobuf.GeneratedMessageLite$GeneratedExtension)
+    127:134:ExtensionRegistryLite(com.google.protobuf.ExtensionRegistryLite)
+com.google.protobuf.ExtensionRegistryLite$ObjectIntPair
+com.google.protobuf.FieldSet
+com.google.protobuf.FieldSet$1
+com.google.protobuf.FieldSet$FieldDescriptorLite
+com.google.protobuf.GeneratedMessageLite:
+    424:424:public static com.google.protobuf.GeneratedMessageLite$GeneratedExtension newGeneratedExtension()
+com.google.protobuf.GeneratedMessageLite$1
+com.google.protobuf.GeneratedMessageLite$Builder:
+    public abstract com.google.protobuf.GeneratedMessageLite$Builder mergeFrom(com.google.protobuf.GeneratedMessageLite)
+    public abstract com.google.protobuf.GeneratedMessageLite getDefaultInstanceForType()
+    protected abstract com.google.protobuf.GeneratedMessageLite internalGetResult()
+    47:47:public com.google.protobuf.MessageLite getDefaultInstanceForType()
+    47:47:public com.google.protobuf.MessageLite$Builder clone()
+com.google.protobuf.GeneratedMessageLite$ExtendableBuilder
+com.google.protobuf.GeneratedMessageLite$ExtendableMessage
+com.google.protobuf.GeneratedMessageLite$ExtendableMessage$ExtensionWriter
+com.google.protobuf.GeneratedMessageLite$ExtensionDescriptor
+com.google.protobuf.GeneratedMessageLite$GeneratedExtension
+com.google.protobuf.Internal:
+    74:78:public static java.lang.String stringDefaultValue(java.lang.String)
+    93:97:public static com.google.protobuf.ByteString bytesDefaultValue(java.lang.String)
+com.google.protobuf.Internal$EnumLite
+com.google.protobuf.Internal$EnumLiteMap:
+    public abstract com.google.protobuf.Internal$EnumLite findValueByNumber(int)
+com.google.protobuf.InvalidProtocolBufferException:
+    private static final long serialVersionUID
+com.google.protobuf.MessageLite:
+    public abstract com.google.protobuf.MessageLite getDefaultInstanceForType()
+    public abstract boolean isInitialized()
+    public abstract com.google.protobuf.ByteString toByteString()
+    public abstract byte[] toByteArray()
+    public abstract void writeTo(java.io.OutputStream)
+    public abstract void writeDelimitedTo(java.io.OutputStream)
+    public abstract com.google.protobuf.MessageLite$Builder newBuilderForType()
+    public abstract com.google.protobuf.MessageLite$Builder toBuilder()
+com.google.protobuf.MessageLite$Builder:
+    public abstract com.google.protobuf.MessageLite$Builder clear()
+    public abstract com.google.protobuf.MessageLite build()
+    public abstract com.google.protobuf.MessageLite buildPartial()
+    public abstract com.google.protobuf.MessageLite$Builder clone()
+    public abstract boolean isInitialized()
+    public abstract com.google.protobuf.MessageLite$Builder mergeFrom(com.google.protobuf.CodedInputStream)
+    public abstract com.google.protobuf.MessageLite getDefaultInstanceForType()
+    public abstract com.google.protobuf.MessageLite$Builder mergeFrom(com.google.protobuf.ByteString)
+    public abstract com.google.protobuf.MessageLite$Builder mergeFrom(com.google.protobuf.ByteString,com.google.protobuf.ExtensionRegistryLite)
+    public abstract com.google.protobuf.MessageLite$Builder mergeFrom(byte[])
+    public abstract com.google.protobuf.MessageLite$Builder mergeFrom(byte[],int,int)
+    public abstract com.google.protobuf.MessageLite$Builder mergeFrom(byte[],com.google.protobuf.ExtensionRegistryLite)
+    public abstract com.google.protobuf.MessageLite$Builder mergeFrom(byte[],int,int,com.google.protobuf.ExtensionRegistryLite)
+    public abstract com.google.protobuf.MessageLite$Builder mergeFrom(java.io.InputStream)
+    public abstract com.google.protobuf.MessageLite$Builder mergeFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite)
+    public abstract boolean mergeDelimitedFrom(java.io.InputStream)
+    public abstract boolean mergeDelimitedFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite)
+com.google.protobuf.UninitializedMessageException:
+    private static final long serialVersionUID
+    59:61:public UninitializedMessageException(java.util.List)
+    72:72:public java.util.List getMissingFields()
+    86:97:private static java.lang.String buildDescription(java.util.List)
+com.google.protobuf.WireFormat:
+    static final int WIRETYPE_VARINT
+    static final int WIRETYPE_FIXED64
+    static final int WIRETYPE_LENGTH_DELIMITED
+    static final int WIRETYPE_START_GROUP
+    static final int WIRETYPE_END_GROUP
+    static final int WIRETYPE_FIXED32
+    static final int TAG_TYPE_BITS
+    static final int TAG_TYPE_MASK
+    static final int MESSAGE_SET_ITEM
+    static final int MESSAGE_SET_TYPE_ID
+    static final int MESSAGE_SET_MESSAGE
+com.google.protobuf.WireFormat$1
+com.google.protobuf.WireFormat$FieldType
+com.google.protobuf.WireFormat$FieldType$1
+com.google.protobuf.WireFormat$FieldType$2
+com.google.protobuf.WireFormat$FieldType$3
+com.google.protobuf.WireFormat$FieldType$4
+com.google.protobuf.WireFormat$JavaType
+com.urbanairship.InternalOptions:
+    public boolean isValid()
+com.urbanairship.Logger:
+    public static void warn(java.lang.String,java.lang.Throwable)
+    public static void warn(java.lang.Throwable)
+    public static void info(java.lang.String,java.lang.Throwable)
+com.urbanairship.Options:
+    public abstract boolean isValid()
+com.urbanairship.Preferences:
+    public boolean remove(java.lang.String)
+    public float getFloat(java.lang.String,float)
+    public boolean putFloat(java.lang.String,float)
+com.urbanairship.UAirship:
+    private static final java.lang.String version
+    public static void takeOff(android.app.Application)
+    public static void land()
+com.urbanairship.analytics.ActivityMonitor:
+    private static final int BACKGROUND_DELAY_MS
+com.urbanairship.analytics.ActivityStartedEvent:
+    static final java.lang.String TYPE
+com.urbanairship.analytics.ActivityStoppedEvent:
+    static final java.lang.String TYPE
+com.urbanairship.analytics.Analytics:
+    public static final java.lang.String ACTION_ANALYTICS_START
+    java.lang.String getServer()
+com.urbanairship.analytics.Analytics$Session:
+    public void log()
+com.urbanairship.analytics.AppBackgroundEvent:
+    static final java.lang.String TYPE
+com.urbanairship.analytics.AppForegroundEvent:
+    static final java.lang.String TYPE
+com.urbanairship.analytics.EventDataManager:
+    private static final java.lang.String DATABASE_NAME
+    private static final int DATABASE_VERSION
+    public void close()
+    public android.database.sqlite.SQLiteDatabase getDatabase()
+    public java.util.Map getEvents(int)
+    public void deleteEvent(java.lang.String)
+    public void deleteEvents(java.util.Set)
+com.urbanairship.analytics.EventDataManager$Events
+com.urbanairship.analytics.EventUploadManager:
+    public static final int MAX_TOTAL_DB_SIZE
+    public static final int MAX_BATCH_SIZE
+    public static final int DEFAULT_BATCH_SIZE
+    public static final int MAX_WAIT_MS
+    public static final int MIN_BATCH_INTERVAL_MS
+    public static final java.lang.String MAX_TOTAL_DB_SIZE_KEY
+    public static final java.lang.String MAX_BATCH_SIZE_KEY
+    public static final java.lang.String MAX_WAIT_KEY
+    public static final java.lang.String MIN_BATCH_INTERVAL_KEY
+    public static final java.lang.String LAST_SEND_KEY
+    public void stopUpload()
+com.urbanairship.analytics.PushArrivedEvent:
+    static final java.lang.String TYPE
+com.urbanairship.analytics.PushPreferencesChangedEvent:
+    static final java.lang.String TYPE
+com.urbanairship.analytics.PushServiceStartedEvent:
+    static final java.lang.String TYPE
+com.urbanairship.iap.DefaultIAPEventListener:
+    public void marketUnavailable(com.urbanairship.iap.Product)
+com.urbanairship.iap.DownloadManager:
+    static final java.lang.String PENDING_PRODUCTS_FILE
+    static final int MAX_TRIES
+com.urbanairship.iap.IAPEventListener:
+    public abstract void marketUnavailable(com.urbanairship.iap.Product)
+com.urbanairship.iap.IAPManager:
+    private static final java.lang.String IAP_FIRST_RUN_PREFERENCES
+    private static final java.lang.String INITIALIZED_KEY
+    public static void tearDown()
+    public java.lang.String getAppName()
+    public int getAppIcon()
+    public void setNotificationBuilder(com.urbanairship.iap.PurchaseNotificationBuilder)
+    public void setTempPath(java.lang.String)
+    public void setDownloadPath(java.lang.String)
+    public void setEventListener(com.urbanairship.iap.IAPEventListener)
+    boolean payForProduct(android.app.Activity,com.urbanairship.iap.Product)
+com.urbanairship.iap.Inventory:
+    public void deleteObserver(java.util.Observer)
+    public java.util.List getProducts(com.urbanairship.iap.Inventory$FilterType)
+    public int size(com.urbanairship.iap.Inventory$FilterType)
+    public boolean hasProduct(java.lang.String)
+    public void load()
+    void purchase(android.app.Activity,java.lang.String)
+    public void purchase(android.app.Activity,com.urbanairship.iap.Product)
+com.urbanairship.iap.Inventory$1:
+    Inventory$1(com.urbanairship.iap.Inventory)
+com.urbanairship.iap.Inventory$2
+com.urbanairship.iap.Inventory$FilterType
+com.urbanairship.iap.MarketListener:
+    public void onPurchaseStateChange(com.urbanairship.iap.marketinterface.Consts$PurchaseState,java.lang.String,int,long,java.lang.String)
+    public void onRequestPurchaseResponse(com.urbanairship.iap.marketinterface.BillingService$RequestPurchase,com.urbanairship.iap.marketinterface.Consts$ResponseCode)
+com.urbanairship.iap.Product:
+    public void addObserver(java.util.Observer)
+    public void deleteObserver(java.util.Observer)
+    public java.lang.String getIconURLString()
+    public java.lang.String getDescription()
+    public double getFileSize()
+    public java.lang.String getHumanReadableFileSize()
+    public java.lang.String getPreviewURLString()
+    public boolean isFree()
+    public java.lang.String getPrice()
+    public java.io.File getDownloadPath()
+com.urbanairship.iap.PurchaseNotificationInfo:
+    public java.lang.String getProductId()
+    public int getProgress()
+    public void setProductName(java.lang.String)
+    public void setProductId(java.lang.String)
+    public void setNotificationId(int)
+    public void setTimestamp(long)
+com.urbanairship.iap.Receipt:
+    private static final java.lang.String RECEIPT_STORE
+    Receipt(java.lang.Integer,java.lang.String)
+    java.lang.String getProductId()
+    java.lang.String getOrderId()
+    java.lang.Long getPurchaseTime()
+    void setProductRevision(java.lang.Integer)
+    static boolean hasReceipts()
+com.urbanairship.iap.marketinterface.AbstractMarketListener:
+    private java.lang.reflect.Method mStartIntentSender
+    public abstract void onBillingSupported(boolean)
+    public abstract void onPurchaseStateChange(com.urbanairship.iap.marketinterface.Consts$PurchaseState,java.lang.String,int,long,java.lang.String)
+    public abstract void onRequestPurchaseResponse(com.urbanairship.iap.marketinterface.BillingService$RequestPurchase,com.urbanairship.iap.marketinterface.Consts$ResponseCode)
+    public abstract void onRestoreTransactionsResponse(com.urbanairship.iap.marketinterface.BillingService$RestoreTransactions,com.urbanairship.iap.marketinterface.Consts$ResponseCode)
+    private void initCompatibilityLayer(android.app.Activity)
+    public void startBuyPageActivity(android.app.Activity,android.app.PendingIntent,android.content.Intent)
+    public void postPurchaseStateChange(com.urbanairship.iap.marketinterface.Consts$PurchaseState,java.lang.String,int,long,java.lang.String)
+com.urbanairship.iap.marketinterface.AbstractMarketListener$1
+com.urbanairship.iap.marketinterface.BillingService:
+    public boolean requestPurchase(android.app.Activity,java.lang.String,java.lang.String)
+    public boolean requestPurchase(android.app.Activity,java.lang.String)
+    public void unbind()
+com.urbanairship.iap.marketinterface.BillingService$MarketFailException:
+    private static final long serialVersionUID
+com.urbanairship.iap.marketinterface.BillingService$RequestPurchase
+com.urbanairship.iap.marketinterface.Consts:
+    public static final java.lang.String MARKET_BILLING_SERVICE_ACTION
+    public static final java.lang.String ACTION_CONFIRM_NOTIFICATION
+    public static final java.lang.String ACTION_GET_PURCHASE_INFORMATION
+    public static final java.lang.String ACTION_RESTORE_TRANSACTIONS
+    public static final java.lang.String ACTION_NOTIFY
+    public static final java.lang.String ACTION_RESPONSE_CODE
+    public static final java.lang.String ACTION_PURCHASE_STATE_CHANGED
+    public static final java.lang.String NOTIFICATION_ID
+    public static final java.lang.String INAPP_SIGNED_DATA
+    public static final java.lang.String INAPP_SIGNATURE
+    public static final java.lang.String INAPP_REQUEST_ID
+    public static final java.lang.String INAPP_RESPONSE_CODE
+    public static final java.lang.String BILLING_REQUEST_METHOD
+    public static final java.lang.String BILLING_REQUEST_API_VERSION
+    public static final java.lang.String BILLING_REQUEST_PACKAGE_NAME
+    public static final java.lang.String BILLING_REQUEST_ITEM_ID
+    public static final java.lang.String BILLING_REQUEST_DEVELOPER_PAYLOAD
+    public static final java.lang.String BILLING_REQUEST_NOTIFY_IDS
+    public static final java.lang.String BILLING_REQUEST_NONCE
+    public static final java.lang.String BILLING_RESPONSE_RESPONSE_CODE
+    public static final java.lang.String BILLING_RESPONSE_PURCHASE_INTENT
+    public static final java.lang.String BILLING_RESPONSE_REQUEST_ID
+    public static final boolean DEBUG
+com.urbanairship.iap.marketinterface.ResponseHandler:
+    public static void buyPageIntentResponse(android.app.Activity,android.app.PendingIntent,android.content.Intent)
+    public static void responseCodeReceived(android.content.Context,com.urbanairship.iap.marketinterface.BillingService$RequestPurchase,com.urbanairship.iap.marketinterface.Consts$ResponseCode)
+com.urbanairship.iap.marketinterface.Security:
+    public static boolean isNonceKnown(long)
+com.urbanairship.push.PushManager:
+    public static final java.lang.String ACTION_REGISTRATION_FINISHED
+    public static final java.lang.String ACTION_PUSH_RECEIVED
+    public static final java.lang.String ACTION_NOTIFICATION_OPENED
+    public static final java.lang.String ACTION_NOTIFICATION_OPENED_PROXY
+    private static final java.lang.String ACTION_UPDATE_APID
+    private static final java.lang.String ACTION_DELETE_APID
+    private static final java.lang.String EXTRA_PING
+    public static final java.lang.String EXTRA_ALERT
+    public static final java.lang.String EXTRA_PUSH_ID
+    public static final java.lang.String EXTRA_NOTIFICATION_ID
+    public static final java.lang.String EXTRA_STRING_EXTRA
+    public static final java.lang.String EXTRA_APID
+    public static final java.lang.String EXTRA_REGISTRATION_VALID
+    public static final java.lang.String EXTRA_REGISTRATION_ERROR
+    public static final java.lang.String EXTRA_C2DM_REGISTRATION_ID
+    public static final java.lang.String EXTRA_EXPIRATION
+    public void setAliasAndTags(java.lang.String,java.util.Set)
+    public void setAlias(java.lang.String)
+    public void setTags(java.util.Set)
+    public java.lang.String getAPID()
+com.urbanairship.push.PushPreferences:
+    private static final java.lang.String PUSH_ENABLED_KEY
+    private static final java.lang.String SOUND_ENABLED_KEY
+    private static final java.lang.String VIBRATE_ENABLED_KEY
+    private static final java.lang.String RETRY_AFTER_KEY
+    private static final java.lang.String APID_KEY
+    private static final java.lang.String APID_READY_KEY
+    private static final java.lang.String BOX_OFFICE_SECRET_KEY
+    private static final java.lang.String ALIAS_KEY
+    private static final java.lang.String TAGS_KEY
+    private static final java.lang.String C2DM_ID_KEY
+    private static final java.lang.String APID_UPDATE_NEEDED_KEY
+    public boolean setAlias(java.lang.String)
+    public boolean setTags(java.util.Set)
+com.urbanairship.push.PushPreferences$QuietTime
+com.urbanairship.push.PushService:
+    public static final java.lang.String ACTION_START
+    public static final java.lang.String ACTION_STOP
+    public static final java.lang.String ACTION_HEARTBEAT
+com.urbanairship.push.c2dm.C2DMPushManager:
+    public static final java.lang.String PERMISSION_RECEIVE
+    private static final java.lang.String INTENT_REGISTER
+    private static final java.lang.String INTENT_UNREGISTER
+    private static final long MAX_BACKOFF_TIME
+    public static com.urbanairship.push.c2dm.C2DMPushManager shared()
+    public static void sendTestPush(java.lang.String,java.lang.String)
+    public static void usePackageManager(android.content.pm.PackageManager)
+com.urbanairship.push.c2dm.C2DMPushManager$2
+com.urbanairship.push.c2dm.C2DMPushReceiver:
+    public static final java.lang.String INTENT_REGISTRATION
+    public static final java.lang.String INTENT_RECEIVE
+com.urbanairship.push.embedded.BoxOfficeClient$BoxOfficeException:
+    private static final long serialVersionUID
+com.urbanairship.push.embedded.BoxOfficeClient$FatalBoxOfficeException:
+    private static final long serialVersionUID
+com.urbanairship.push.embedded.BoxOfficeClient$FirstRunForbiddenException:
+    private static final long serialVersionUID
+com.urbanairship.push.embedded.BoxOfficeClient$InvalidSecretException:
+    private static final long serialVersionUID
+com.urbanairship.push.embedded.Config$BoxOffice:
+    public static final long MAX_HOLDING_PATTERN
+com.urbanairship.push.embedded.Config$Helium:
+    public static final long initialRetryInterval
+    public static final long backoffFactor
+    public static final long maxRetryInterval
+    public static final long retryResetThreshold
+    public static final long readSleep
+    public static final long MAX_HELIUM_CACHE_TTL_MS
+    public static final int maxFailureCount
+    public static final long postLookupDelay
+com.urbanairship.push.embedded.Crypto:
+    private static final java.lang.String algo
+com.urbanairship.push.embedded.Crypto$NullUUID:
+    private static final long serialVersionUID
+com.urbanairship.push.embedded.EmbeddedPushManager:
+    public static final java.lang.String version
+    static final java.lang.String holdingPatternWarning
+    public synchronized void setExtraApidRegistrationsDisabled(boolean)
+    public static void stop()
+com.urbanairship.push.embedded.HeliumClient$HeliumException:
+    private static final long serialVersionUID
+com.urbanairship.push.embedded.HeliumClient$HeliumInvalidPackageException:
+    private static final long serialVersionUID
+com.urbanairship.push.embedded.HeliumConnection:
+    public static final int CONNECTION_TIMEOUT
+    public boolean isConnected()
+com.urbanairship.push.proto.Messages:
+    public static void registerAllExtensions(com.google.protobuf.ExtensionRegistryLite)
+com.urbanairship.push.proto.Messages$AirshipMethod:
+    public static com.google.protobuf.Internal$EnumLiteMap internalGetValueMap()
+com.urbanairship.push.proto.Messages$AirshipMethod$1:
+    public com.urbanairship.push.proto.Messages$AirshipMethod findValueByNumber(int)
+    public com.google.protobuf.Internal$EnumLite findValueByNumber(int)
+com.urbanairship.push.proto.Messages$DeviceConnect
+com.urbanairship.push.proto.Messages$DeviceConnect$Builder
+com.urbanairship.push.proto.Messages$Hello
+com.urbanairship.push.proto.Messages$Hello$Builder
+com.urbanairship.push.proto.Messages$KeyValue:
+    public static final int KEY_FIELD_NUMBER
+    public static final int VALUE_FIELD_NUMBER
+    public com.urbanairship.push.proto.Messages$KeyValue getDefaultInstanceForType()
+    public static com.urbanairship.push.proto.Messages$KeyValue parseFrom(com.google.protobuf.ByteString)
+    public static com.urbanairship.push.proto.Messages$KeyValue parseFrom(com.google.protobuf.ByteString,com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$KeyValue parseFrom(byte[])
+    public static com.urbanairship.push.proto.Messages$KeyValue parseFrom(byte[],com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$KeyValue parseFrom(java.io.InputStream)
+    public static com.urbanairship.push.proto.Messages$KeyValue parseFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$KeyValue parseDelimitedFrom(java.io.InputStream)
+    public static com.urbanairship.push.proto.Messages$KeyValue parseDelimitedFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$KeyValue parseFrom(com.google.protobuf.CodedInputStream)
+    public static com.urbanairship.push.proto.Messages$KeyValue parseFrom(com.google.protobuf.CodedInputStream,com.google.protobuf.ExtensionRegistryLite)
+    public com.urbanairship.push.proto.Messages$KeyValue$Builder newBuilderForType()
+    public static com.urbanairship.push.proto.Messages$KeyValue$Builder newBuilder(com.urbanairship.push.proto.Messages$KeyValue)
+    public com.urbanairship.push.proto.Messages$KeyValue$Builder toBuilder()
+    public com.google.protobuf.MessageLite$Builder toBuilder()
+    public com.google.protobuf.MessageLite$Builder newBuilderForType()
+    public com.google.protobuf.MessageLite getDefaultInstanceForType()
+com.urbanairship.push.proto.Messages$KeyValue$Builder:
+    protected com.urbanairship.push.proto.Messages$KeyValue internalGetResult()
+    public com.urbanairship.push.proto.Messages$KeyValue$Builder clear()
+    public com.urbanairship.push.proto.Messages$KeyValue getDefaultInstanceForType()
+    public boolean isInitialized()
+    public com.urbanairship.push.proto.Messages$KeyValue build()
+    private com.urbanairship.push.proto.Messages$KeyValue buildParsed()
+    public boolean hasKey()
+    public java.lang.String getKey()
+    public com.urbanairship.push.proto.Messages$KeyValue$Builder clearKey()
+    public boolean hasValue()
+    public java.lang.String getValue()
+    public com.urbanairship.push.proto.Messages$KeyValue$Builder clearValue()
+    protected com.google.protobuf.GeneratedMessageLite internalGetResult()
+    public com.google.protobuf.GeneratedMessageLite getDefaultInstanceForType()
+    public com.google.protobuf.GeneratedMessageLite$Builder mergeFrom(com.google.protobuf.GeneratedMessageLite)
+    public com.google.protobuf.MessageLite getDefaultInstanceForType()
+    public com.google.protobuf.MessageLite$Builder clone()
+    public com.google.protobuf.MessageLite buildPartial()
+    public com.google.protobuf.MessageLite build()
+    public com.google.protobuf.MessageLite$Builder clear()
+    static com.urbanairship.push.proto.Messages$KeyValue access$3800(com.urbanairship.push.proto.Messages$KeyValue$Builder)
+com.urbanairship.push.proto.Messages$OS:
+    public static com.google.protobuf.Internal$EnumLiteMap internalGetValueMap()
+com.urbanairship.push.proto.Messages$OS$1:
+    public com.urbanairship.push.proto.Messages$OS findValueByNumber(int)
+    public com.google.protobuf.Internal$EnumLite findValueByNumber(int)
+com.urbanairship.push.proto.Messages$PushNotification:
+    public static final int MESSAGE_ID_FIELD_NUMBER
+    public static final int MESSAGE_FIELD_NUMBER
+    public static final int PACKAGE_NAME_FIELD_NUMBER
+    public static final int PAYLOAD_FIELD_NUMBER
+    public static final int MAP_FIELD_NUMBER
+    public com.urbanairship.push.proto.Messages$PushNotification getDefaultInstanceForType()
+    public com.urbanairship.push.proto.Messages$KeyValue getMap(int)
+    public static com.urbanairship.push.proto.Messages$PushNotification parseFrom(com.google.protobuf.ByteString,com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$PushNotification parseFrom(byte[])
+    public static com.urbanairship.push.proto.Messages$PushNotification parseFrom(byte[],com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$PushNotification parseFrom(java.io.InputStream)
+    public static com.urbanairship.push.proto.Messages$PushNotification parseFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$PushNotification parseDelimitedFrom(java.io.InputStream)
+    public static com.urbanairship.push.proto.Messages$PushNotification parseDelimitedFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$PushNotification parseFrom(com.google.protobuf.CodedInputStream)
+    public static com.urbanairship.push.proto.Messages$PushNotification parseFrom(com.google.protobuf.CodedInputStream,com.google.protobuf.ExtensionRegistryLite)
+    public com.urbanairship.push.proto.Messages$PushNotification$Builder newBuilderForType()
+    public static com.urbanairship.push.proto.Messages$PushNotification$Builder newBuilder(com.urbanairship.push.proto.Messages$PushNotification)
+    public com.urbanairship.push.proto.Messages$PushNotification$Builder toBuilder()
+    public com.google.protobuf.MessageLite$Builder toBuilder()
+    public com.google.protobuf.MessageLite$Builder newBuilderForType()
+    public com.google.protobuf.MessageLite getDefaultInstanceForType()
+com.urbanairship.push.proto.Messages$PushNotification$Builder:
+    protected com.urbanairship.push.proto.Messages$PushNotification internalGetResult()
+    public com.urbanairship.push.proto.Messages$PushNotification$Builder clear()
+    public com.urbanairship.push.proto.Messages$PushNotification getDefaultInstanceForType()
+    public com.urbanairship.push.proto.Messages$PushNotification build()
+    public boolean hasMessageId()
+    public java.lang.String getMessageId()
+    public com.urbanairship.push.proto.Messages$PushNotification$Builder clearMessageId()
+    public boolean hasMessage()
+    public java.lang.String getMessage()
+    public com.urbanairship.push.proto.Messages$PushNotification$Builder clearMessage()
+    public boolean hasPackageName()
+    public java.lang.String getPackageName()
+    public com.urbanairship.push.proto.Messages$PushNotification$Builder clearPackageName()
+    public boolean hasPayload()
+    public java.lang.String getPayload()
+    public com.urbanairship.push.proto.Messages$PushNotification$Builder clearPayload()
+    public java.util.List getMapList()
+    public int getMapCount()
+    public com.urbanairship.push.proto.Messages$KeyValue getMap(int)
+    public com.urbanairship.push.proto.Messages$PushNotification$Builder setMap(int,com.urbanairship.push.proto.Messages$KeyValue)
+    public com.urbanairship.push.proto.Messages$PushNotification$Builder setMap(int,com.urbanairship.push.proto.Messages$KeyValue$Builder)
+    public com.urbanairship.push.proto.Messages$PushNotification$Builder addMap(com.urbanairship.push.proto.Messages$KeyValue$Builder)
+    public com.urbanairship.push.proto.Messages$PushNotification$Builder addAllMap(java.lang.Iterable)
+    public com.urbanairship.push.proto.Messages$PushNotification$Builder clearMap()
+    protected com.google.protobuf.GeneratedMessageLite internalGetResult()
+    public com.google.protobuf.GeneratedMessageLite getDefaultInstanceForType()
+    public com.google.protobuf.GeneratedMessageLite$Builder mergeFrom(com.google.protobuf.GeneratedMessageLite)
+    public com.google.protobuf.MessageLite getDefaultInstanceForType()
+    public com.google.protobuf.MessageLite$Builder clone()
+    public com.google.protobuf.MessageLite buildPartial()
+    public com.google.protobuf.MessageLite build()
+    public com.google.protobuf.MessageLite$Builder clear()
+com.urbanairship.push.proto.Messages$Register:
+    public static final int APID_FIELD_NUMBER
+    public static final int OS_FIELD_NUMBER
+    public static final int OS_VERSION_FIELD_NUMBER
+    public static final int UA_VERSION_FIELD_NUMBER
+    public static final int SECRET_FIELD_NUMBER
+    public static final int RELIERS_FIELD_NUMBER
+    public com.urbanairship.push.proto.Messages$Register getDefaultInstanceForType()
+    public int getReliersCount()
+    public com.urbanairship.push.proto.Messages$Relier getReliers(int)
+    public static com.urbanairship.push.proto.Messages$Register parseFrom(com.google.protobuf.ByteString)
+    public static com.urbanairship.push.proto.Messages$Register parseFrom(com.google.protobuf.ByteString,com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$Register parseFrom(byte[])
+    public static com.urbanairship.push.proto.Messages$Register parseFrom(byte[],com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$Register parseFrom(java.io.InputStream)
+    public static com.urbanairship.push.proto.Messages$Register parseFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$Register parseDelimitedFrom(java.io.InputStream)
+    public static com.urbanairship.push.proto.Messages$Register parseDelimitedFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$Register parseFrom(com.google.protobuf.CodedInputStream)
+    public static com.urbanairship.push.proto.Messages$Register parseFrom(com.google.protobuf.CodedInputStream,com.google.protobuf.ExtensionRegistryLite)
+    public com.urbanairship.push.proto.Messages$Register$Builder newBuilderForType()
+    public static com.urbanairship.push.proto.Messages$Register$Builder newBuilder(com.urbanairship.push.proto.Messages$Register)
+    public com.urbanairship.push.proto.Messages$Register$Builder toBuilder()
+    public com.google.protobuf.MessageLite$Builder toBuilder()
+    public com.google.protobuf.MessageLite$Builder newBuilderForType()
+    public com.google.protobuf.MessageLite getDefaultInstanceForType()
+com.urbanairship.push.proto.Messages$Register$Builder:
+    protected com.urbanairship.push.proto.Messages$Register internalGetResult()
+    public com.urbanairship.push.proto.Messages$Register$Builder clear()
+    public com.urbanairship.push.proto.Messages$Register getDefaultInstanceForType()
+    private com.urbanairship.push.proto.Messages$Register buildParsed()
+    public boolean hasApid()
+    public java.lang.String getApid()
+    public com.urbanairship.push.proto.Messages$Register$Builder clearApid()
+    public boolean hasOs()
+    public com.urbanairship.push.proto.Messages$OS getOs()
+    public com.urbanairship.push.proto.Messages$Register$Builder clearOs()
+    public boolean hasOsVersion()
+    public java.lang.String getOsVersion()
+    public com.urbanairship.push.proto.Messages$Register$Builder clearOsVersion()
+    public boolean hasUaVersion()
+    public java.lang.String getUaVersion()
+    public com.urbanairship.push.proto.Messages$Register$Builder clearUaVersion()
+    public boolean hasSecret()
+    public java.lang.String getSecret()
+    public com.urbanairship.push.proto.Messages$Register$Builder clearSecret()
+    public java.util.List getReliersList()
+    public int getReliersCount()
+    public com.urbanairship.push.proto.Messages$Relier getReliers(int)
+    public com.urbanairship.push.proto.Messages$Register$Builder setReliers(int,com.urbanairship.push.proto.Messages$Relier)
+    public com.urbanairship.push.proto.Messages$Register$Builder setReliers(int,com.urbanairship.push.proto.Messages$Relier$Builder)
+    public com.urbanairship.push.proto.Messages$Register$Builder addReliers(com.urbanairship.push.proto.Messages$Relier$Builder)
+    public com.urbanairship.push.proto.Messages$Register$Builder clearReliers()
+    protected com.google.protobuf.GeneratedMessageLite internalGetResult()
+    public com.google.protobuf.GeneratedMessageLite getDefaultInstanceForType()
+    public com.google.protobuf.GeneratedMessageLite$Builder mergeFrom(com.google.protobuf.GeneratedMessageLite)
+    public com.google.protobuf.MessageLite getDefaultInstanceForType()
+    public com.google.protobuf.MessageLite$Builder clone()
+    public com.google.protobuf.MessageLite buildPartial()
+    public com.google.protobuf.MessageLite build()
+    public com.google.protobuf.MessageLite$Builder clear()
+    static com.urbanairship.push.proto.Messages$Register access$700(com.urbanairship.push.proto.Messages$Register$Builder)
+com.urbanairship.push.proto.Messages$RegistrationEnvelope:
+    public static final int APID_FIELD_NUMBER
+    public static final int REGISTRATION_FIELD_NUMBER
+    public com.urbanairship.push.proto.Messages$RegistrationEnvelope getDefaultInstanceForType()
+    public static com.urbanairship.push.proto.Messages$RegistrationEnvelope parseFrom(com.google.protobuf.ByteString)
+    public static com.urbanairship.push.proto.Messages$RegistrationEnvelope parseFrom(com.google.protobuf.ByteString,com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$RegistrationEnvelope parseFrom(byte[])
+    public static com.urbanairship.push.proto.Messages$RegistrationEnvelope parseFrom(byte[],com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$RegistrationEnvelope parseFrom(java.io.InputStream)
+    public static com.urbanairship.push.proto.Messages$RegistrationEnvelope parseFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$RegistrationEnvelope parseDelimitedFrom(java.io.InputStream)
+    public static com.urbanairship.push.proto.Messages$RegistrationEnvelope parseDelimitedFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$RegistrationEnvelope parseFrom(com.google.protobuf.CodedInputStream)
+    public static com.urbanairship.push.proto.Messages$RegistrationEnvelope parseFrom(com.google.protobuf.CodedInputStream,com.google.protobuf.ExtensionRegistryLite)
+    public com.urbanairship.push.proto.Messages$RegistrationEnvelope$Builder newBuilderForType()
+    public static com.urbanairship.push.proto.Messages$RegistrationEnvelope$Builder newBuilder(com.urbanairship.push.proto.Messages$RegistrationEnvelope)
+    public com.urbanairship.push.proto.Messages$RegistrationEnvelope$Builder toBuilder()
+    public com.google.protobuf.MessageLite$Builder toBuilder()
+    public com.google.protobuf.MessageLite$Builder newBuilderForType()
+    public com.google.protobuf.MessageLite getDefaultInstanceForType()
+com.urbanairship.push.proto.Messages$RegistrationEnvelope$Builder:
+    protected com.urbanairship.push.proto.Messages$RegistrationEnvelope internalGetResult()
+    public com.urbanairship.push.proto.Messages$RegistrationEnvelope$Builder clear()
+    public com.urbanairship.push.proto.Messages$RegistrationEnvelope getDefaultInstanceForType()
+    private com.urbanairship.push.proto.Messages$RegistrationEnvelope buildParsed()
+    public boolean hasApid()
+    public java.lang.String getApid()
+    public com.urbanairship.push.proto.Messages$RegistrationEnvelope$Builder clearApid()
+    public boolean hasRegistration()
+    public com.google.protobuf.ByteString getRegistration()
+    public com.urbanairship.push.proto.Messages$RegistrationEnvelope$Builder clearRegistration()
+    protected com.google.protobuf.GeneratedMessageLite internalGetResult()
+    public com.google.protobuf.GeneratedMessageLite getDefaultInstanceForType()
+    public com.google.protobuf.GeneratedMessageLite$Builder mergeFrom(com.google.protobuf.GeneratedMessageLite)
+    public com.google.protobuf.MessageLite getDefaultInstanceForType()
+    public com.google.protobuf.MessageLite$Builder clone()
+    public com.google.protobuf.MessageLite buildPartial()
+    public com.google.protobuf.MessageLite build()
+    public com.google.protobuf.MessageLite$Builder clear()
+    static com.urbanairship.push.proto.Messages$RegistrationEnvelope access$2100(com.urbanairship.push.proto.Messages$RegistrationEnvelope$Builder)
+com.urbanairship.push.proto.Messages$RegistrationResponse:
+    public static final int VALID_RELIERS_FIELD_NUMBER
+    public static final int INVALID_RELIERS_FIELD_NUMBER
+    public com.urbanairship.push.proto.Messages$RegistrationResponse getDefaultInstanceForType()
+    public int getValidReliersCount()
+    public com.urbanairship.push.proto.Messages$Relier getValidReliers(int)
+    public int getInvalidReliersCount()
+    public com.urbanairship.push.proto.Messages$Relier getInvalidReliers(int)
+    public static com.urbanairship.push.proto.Messages$RegistrationResponse parseFrom(com.google.protobuf.ByteString,com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$RegistrationResponse parseFrom(byte[])
+    public static com.urbanairship.push.proto.Messages$RegistrationResponse parseFrom(byte[],com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$RegistrationResponse parseFrom(java.io.InputStream)
+    public static com.urbanairship.push.proto.Messages$RegistrationResponse parseFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$RegistrationResponse parseDelimitedFrom(java.io.InputStream)
+    public static com.urbanairship.push.proto.Messages$RegistrationResponse parseDelimitedFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$RegistrationResponse parseFrom(com.google.protobuf.CodedInputStream)
+    public static com.urbanairship.push.proto.Messages$RegistrationResponse parseFrom(com.google.protobuf.CodedInputStream,com.google.protobuf.ExtensionRegistryLite)
+    public com.urbanairship.push.proto.Messages$RegistrationResponse$Builder newBuilderForType()
+    public static com.urbanairship.push.proto.Messages$RegistrationResponse$Builder newBuilder(com.urbanairship.push.proto.Messages$RegistrationResponse)
+    public com.urbanairship.push.proto.Messages$RegistrationResponse$Builder toBuilder()
+    public com.google.protobuf.MessageLite$Builder toBuilder()
+    public com.google.protobuf.MessageLite$Builder newBuilderForType()
+    public com.google.protobuf.MessageLite getDefaultInstanceForType()
+com.urbanairship.push.proto.Messages$RegistrationResponse$Builder:
+    protected com.urbanairship.push.proto.Messages$RegistrationResponse internalGetResult()
+    public com.urbanairship.push.proto.Messages$RegistrationResponse$Builder clear()
+    public com.urbanairship.push.proto.Messages$RegistrationResponse getDefaultInstanceForType()
+    public com.urbanairship.push.proto.Messages$RegistrationResponse build()
+    public java.util.List getValidReliersList()
+    public int getValidReliersCount()
+    public com.urbanairship.push.proto.Messages$Relier getValidReliers(int)
+    public com.urbanairship.push.proto.Messages$RegistrationResponse$Builder setValidReliers(int,com.urbanairship.push.proto.Messages$Relier)
+    public com.urbanairship.push.proto.Messages$RegistrationResponse$Builder setValidReliers(int,com.urbanairship.push.proto.Messages$Relier$Builder)
+    public com.urbanairship.push.proto.Messages$RegistrationResponse$Builder addValidReliers(com.urbanairship.push.proto.Messages$Relier$Builder)
+    public com.urbanairship.push.proto.Messages$RegistrationResponse$Builder addAllValidReliers(java.lang.Iterable)
+    public com.urbanairship.push.proto.Messages$RegistrationResponse$Builder clearValidReliers()
+    public java.util.List getInvalidReliersList()
+    public int getInvalidReliersCount()
+    public com.urbanairship.push.proto.Messages$Relier getInvalidReliers(int)
+    public com.urbanairship.push.proto.Messages$RegistrationResponse$Builder setInvalidReliers(int,com.urbanairship.push.proto.Messages$Relier)
+    public com.urbanairship.push.proto.Messages$RegistrationResponse$Builder setInvalidReliers(int,com.urbanairship.push.proto.Messages$Relier$Builder)
+    public com.urbanairship.push.proto.Messages$RegistrationResponse$Builder addInvalidReliers(com.urbanairship.push.proto.Messages$Relier$Builder)
+    public com.urbanairship.push.proto.Messages$RegistrationResponse$Builder addAllInvalidReliers(java.lang.Iterable)
+    public com.urbanairship.push.proto.Messages$RegistrationResponse$Builder clearInvalidReliers()
+    protected com.google.protobuf.GeneratedMessageLite internalGetResult()
+    public com.google.protobuf.GeneratedMessageLite getDefaultInstanceForType()
+    public com.google.protobuf.GeneratedMessageLite$Builder mergeFrom(com.google.protobuf.GeneratedMessageLite)
+    public com.google.protobuf.MessageLite getDefaultInstanceForType()
+    public com.google.protobuf.MessageLite$Builder clone()
+    public com.google.protobuf.MessageLite buildPartial()
+    public com.google.protobuf.MessageLite build()
+    public com.google.protobuf.MessageLite$Builder clear()
+com.urbanairship.push.proto.Messages$Relier:
+    public static final int PACKAGE_FIELD_NUMBER
+    public static final int APP_KEY_FIELD_NUMBER
+    public com.urbanairship.push.proto.Messages$Relier getDefaultInstanceForType()
+    public static com.urbanairship.push.proto.Messages$Relier parseFrom(com.google.protobuf.ByteString)
+    public static com.urbanairship.push.proto.Messages$Relier parseFrom(com.google.protobuf.ByteString,com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$Relier parseFrom(byte[])
+    public static com.urbanairship.push.proto.Messages$Relier parseFrom(byte[],com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$Relier parseFrom(java.io.InputStream)
+    public static com.urbanairship.push.proto.Messages$Relier parseFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$Relier parseDelimitedFrom(java.io.InputStream)
+    public static com.urbanairship.push.proto.Messages$Relier parseDelimitedFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Messages$Relier parseFrom(com.google.protobuf.CodedInputStream)
+    public static com.urbanairship.push.proto.Messages$Relier parseFrom(com.google.protobuf.CodedInputStream,com.google.protobuf.ExtensionRegistryLite)
+    public com.urbanairship.push.proto.Messages$Relier$Builder newBuilderForType()
+    public static com.urbanairship.push.proto.Messages$Relier$Builder newBuilder(com.urbanairship.push.proto.Messages$Relier)
+    public com.urbanairship.push.proto.Messages$Relier$Builder toBuilder()
+    public com.google.protobuf.MessageLite$Builder toBuilder()
+    public com.google.protobuf.MessageLite$Builder newBuilderForType()
+    public com.google.protobuf.MessageLite getDefaultInstanceForType()
+com.urbanairship.push.proto.Messages$Relier$Builder:
+    protected com.urbanairship.push.proto.Messages$Relier internalGetResult()
+    public com.urbanairship.push.proto.Messages$Relier$Builder clear()
+    public com.urbanairship.push.proto.Messages$Relier getDefaultInstanceForType()
+    private com.urbanairship.push.proto.Messages$Relier buildParsed()
+    public boolean hasPackage()
+    public java.lang.String getPackage()
+    public com.urbanairship.push.proto.Messages$Relier$Builder clearPackage()
+    public boolean hasAppKey()
+    public java.lang.String getAppKey()
+    public com.urbanairship.push.proto.Messages$Relier$Builder clearAppKey()
+    protected com.google.protobuf.GeneratedMessageLite internalGetResult()
+    public com.google.protobuf.GeneratedMessageLite getDefaultInstanceForType()
+    public com.google.protobuf.GeneratedMessageLite$Builder mergeFrom(com.google.protobuf.GeneratedMessageLite)
+    public com.google.protobuf.MessageLite getDefaultInstanceForType()
+    public com.google.protobuf.MessageLite$Builder clone()
+    public com.google.protobuf.MessageLite buildPartial()
+    public com.google.protobuf.MessageLite build()
+    public com.google.protobuf.MessageLite$Builder clear()
+    static com.urbanairship.push.proto.Messages$Relier access$000(com.urbanairship.push.proto.Messages$Relier$Builder)
+com.urbanairship.push.proto.Rpc:
+    public static void registerAllExtensions(com.google.protobuf.ExtensionRegistryLite)
+com.urbanairship.push.proto.Rpc$Request:
+    public static final int METHOD_ID_FIELD_NUMBER
+    public static final int BODY_FIELD_NUMBER
+    public static final int REQUEST_ID_FIELD_NUMBER
+    public com.urbanairship.push.proto.Rpc$Request getDefaultInstanceForType()
+    public static com.urbanairship.push.proto.Rpc$Request parseFrom(com.google.protobuf.ByteString)
+    public static com.urbanairship.push.proto.Rpc$Request parseFrom(com.google.protobuf.ByteString,com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Rpc$Request parseFrom(byte[],com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Rpc$Request parseFrom(java.io.InputStream)
+    public static com.urbanairship.push.proto.Rpc$Request parseFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Rpc$Request parseDelimitedFrom(java.io.InputStream)
+    public static com.urbanairship.push.proto.Rpc$Request parseDelimitedFrom(java.io.InputStream,com.google.protobuf.ExtensionRegistryLite)
+    public static com.urbanairship.push.proto.Rpc$Request parseFrom(com.google.protobuf.CodedInputStream)
+    public static com.urbanairship.push.proto.Rpc$Request parseFrom(com.google.protobuf.CodedInputStream,com.google.protobuf.ExtensionRegistryLite)
+    public com.urbanairship.push.proto.Rpc$Request$Builder newBuilderForType()
+    public static com.urbanairship.push.proto.Rpc$Request$Builder newBuilder(com.urbanairship.push.proto.Rpc$Request)
+    public com.urbanairship.push.proto.Rpc$Request$Builder toBuilder()
+    public com.google.protobuf.MessageLite$Builder toBuilder()
+    public com.google.protobuf.MessageLite$Builder newBuilderForType()
+    public com.google.protobuf.MessageLite getDefaultInstanceForType()
+com.urbanairship.push.proto.Rpc$Request$Builder:
+    protected com.urbanairship.push.proto.Rpc$Request internalGetResult()
+    public com.urbanairship.push.proto.Rpc$Request$Builder clear()
+    public com.urbanairship.push.proto.Rpc$Request getDefaultInstanceForType()
+    public boolean hasMethodId()
+    public com.urbanairship.push.proto.Messages$AirshipMethod getMethodId()
+    public com.urbanairship.push.proto.Rpc$Request$Builder clearMethodId()
+    public boolean hasBody()
+    public com.google.protobuf.ByteString getBody()
+    public com.urbanairship.push.proto.Rpc$Request$Builder clearBody()
+    public boolean hasRequestId()
+    public java.lang.String getRequestId()
+    public com.urbanairship.push.proto.Rpc$Request$Builder clearRequestId()
+    protected com.google.protobuf.GeneratedMessageLite internalGetResult()
+    public com.google.protobuf.GeneratedMessageLite getDefaultInstanceForType()
+    public com.google.protobuf.GeneratedMessageLite$Builder mergeFrom(com.google.protobuf.GeneratedMessageLite)
+    public com.google.protobuf.MessageLite getDefaultInstanceForType()
+    public com.google.protobuf.MessageLite$Builder clone()
+    public com.google.protobuf.MessageLite buildPartial()
+    public com.google.protobuf.MessageLite build()
+    public com.google.protobuf.MessageLite$Builder clear()
+com.urbanairship.push.proto.Rpc$Response
+com.urbanairship.push.proto.Rpc$Response$Builder
+com.urbanairship.push.proto.Rpc$Status
+com.urbanairship.push.proto.Rpc$Status$1
+com.urbanairship.restclient.AsyncHandler:
+    public void onData(java.io.OutputStream)
+com.urbanairship.restclient.Post
+com.urbanairship.restclient.PostInputStream
+com.urbanairship.restclient.Request:
+    private static final int BUFFER_SIZE
+    private static final int DEFAULT_TIMEOUT_MS
+    private static final int DEFAULT_SOCKET_BUFFER_SIZE
+    private static final long MAX_PREFETCH_BODY_LENGTH
+    public void setSocketBufferSize(int)
+    public void setAuth(java.lang.String,java.lang.String)
+com.urbanairship.restclient.RequestQueue:
+    public int getMaxConcurrentRequests()
+com.urbanairship.restclient.Response:
+    public java.lang.String reason()
+com.urbanairship.util.AsyncImageLoader
+com.urbanairship.util.AsyncImageLoader$1
+com.urbanairship.util.AsyncImageLoader$2
+com.urbanairship.util.AsyncImageLoader$Delegate
+com.urbanairship.util.Base64:
+    public static final int NO_OPTIONS
+    public static final int ENCODE
+    public static final int DECODE
+    public static final int GZIP
+    public static final int DONT_GUNZIP
+    public static final int DO_BREAK_LINES
+    public static final int URL_SAFE
+    public static final int ORDERED
+    private static final int MAX_LINE_LENGTH
+    private static final byte EQUALS_SIGN
+    private static final byte NEW_LINE
+    private static final java.lang.String PREFERRED_ENCODING
+    private static final byte WHITE_SPACE_ENC
+    private static final byte EQUALS_SIGN_ENC
+    public static void encode(java.nio.ByteBuffer,java.nio.ByteBuffer)
+    public static void encode(java.nio.ByteBuffer,java.nio.CharBuffer)
+    public static java.lang.String encodeObject(java.io.Serializable)
+    public static java.lang.String encodeObject(java.io.Serializable,int)
+    public static java.lang.String encodeBytes(byte[])
+    public static java.lang.String encodeBytes(byte[],int)
+    public static java.lang.String encodeBytes(byte[],int,int)
+    public static java.lang.String encodeBytes(byte[],int,int,int)
+    public static byte[] decode(java.lang.String)
+    public static byte[] decode(java.lang.String,int)
+    public static java.lang.Object decodeToObject(java.lang.String)
+    public static java.lang.Object decodeToObject(java.lang.String,int,java.lang.ClassLoader)
+    public static void encodeToFile(byte[],java.lang.String)
+    public static void decodeToFile(java.lang.String,java.lang.String)
+    public static byte[] decodeFromFile(java.lang.String)
+    public static java.lang.String encodeFromFile(java.lang.String)
+    public static void encodeFileToFile(java.lang.String,java.lang.String)
+    public static void decodeFileToFile(java.lang.String,java.lang.String)
+    static byte[] access$100(byte[],int,int,byte[],int,int)
+com.urbanairship.util.Base64$1
+com.urbanairship.util.Base64$InputStream
+com.urbanairship.util.Base64$OutputStream:
+    public void suspendEncoding()
+    public void resumeEncoding()
+com.urbanairship.util.Base64DecoderException:
+    private static final long serialVersionUID
+com.urbanairship.util.DrawableCache
+com.urbanairship.util.DrawableCache$LRUCache
+com.urbanairship.util.NotificationIDGenerator:
+    private static final java.lang.String SHARED_PREFERENCES_FILE
+    private static final java.lang.String COUNT_KEY
+    public static void setStart(int)
+    public static void setRange(int)

@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".BrowserExampleActivity" >
+
+    <EditText
+        android:id="@+id/editURL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textUri" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/labelURL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editURL"
+        android:layout_alignBottom="@+id/editURL"
+        android:layout_alignParentLeft="true"
+        android:text="@string/labelURLTitle" />
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editURL"
+        android:layout_below="@+id/editURL"
+        android:layout_marginTop="44dp"
+        android:text="@string/btnGoTitle" />
+
+    <CheckBox
+        android:id="@+id/checkUseWebView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnGo"
+        android:layout_alignBottom="@+id/btnGo"
+        android:layout_alignLeft="@+id/labelURL"
+        android:text="@string/checkUseWebViewTitle" />
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:id="@+id/checkUseLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkUseWebView"
+        android:layout_below="@+id/btnGo"
+        android:text="@string/checkUseLocalTitle" />
+
+</RelativeLayout>

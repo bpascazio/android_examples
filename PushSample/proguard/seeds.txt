@@ -1,0 +1,81 @@
+com.urbanairship.AirshipConfigOptions
+com.urbanairship.AirshipConfigOptions: java.lang.String productionAppKey
+com.urbanairship.AirshipConfigOptions: java.lang.String productionAppSecret
+com.urbanairship.AirshipConfigOptions: java.lang.String developmentAppKey
+com.urbanairship.AirshipConfigOptions: java.lang.String developmentAppSecret
+com.urbanairship.AirshipConfigOptions: java.lang.String hostURL
+com.urbanairship.AirshipConfigOptions: java.lang.String analyticsServer
+com.urbanairship.AirshipConfigOptions: java.lang.String c2dmSender
+com.urbanairship.AirshipConfigOptions: java.lang.String transport
+com.urbanairship.AirshipConfigOptions: boolean inProduction
+com.urbanairship.AirshipConfigOptions: boolean pushServiceEnabled
+com.urbanairship.AirshipConfigOptions: boolean iapEnabled
+com.urbanairship.AirshipConfigOptions: boolean analyticsEnabled
+com.urbanairship.AirshipConfigOptions: AirshipConfigOptions()
+com.urbanairship.AirshipConfigOptions: com.urbanairship.AirshipConfigOptions loadDefaultOptions(android.content.Context)
+com.urbanairship.AirshipConfigOptions: com.urbanairship.AirshipConfigOptions$TransportType getTransport()
+com.urbanairship.AirshipConfigOptions: java.lang.String getAppKey()
+com.urbanairship.AirshipConfigOptions: java.lang.String getAppSecret()
+com.urbanairship.AirshipConfigOptions: boolean isValid()
+com.urbanairship.AirshipConfigOptions: java.lang.String getDefaultPropertiesFilename()
+com.urbanairship.Options: Options()
+com.urbanairship.Options: void loadFromProperties(android.content.Context)
+com.urbanairship.Options: void loadFromProperties(android.content.Context,java.lang.String)
+com.urbanairship.Options: boolean isValid()
+com.urbanairship.Options: java.lang.String getDefaultPropertiesFilename()
+com.urbanairship.InternalOptions
+com.urbanairship.InternalOptions: boolean ignoreSSLHostnames
+com.urbanairship.InternalOptions: boolean useTestCluster
+com.urbanairship.InternalOptions: InternalOptions()
+com.urbanairship.InternalOptions: void loadFromProperties(android.content.Context)
+com.urbanairship.InternalOptions: com.urbanairship.InternalOptions loadDefaultOptions(android.content.Context)
+com.urbanairship.InternalOptions: boolean isValid()
+com.urbanairship.InternalOptions: java.lang.String getDefaultPropertiesFilename()
+com.urbanairship.Options: Options()
+com.urbanairship.Options: void loadFromProperties(android.content.Context)
+com.urbanairship.Options: void loadFromProperties(android.content.Context,java.lang.String)
+com.urbanairship.Options: boolean isValid()
+com.urbanairship.Options: java.lang.String getDefaultPropertiesFilename()
+com.google.protobuf.WireFormat$FieldType: com.google.protobuf.WireFormat$FieldType[] values()
+com.google.protobuf.WireFormat$FieldType: com.google.protobuf.WireFormat$FieldType valueOf(java.lang.String)
+com.google.protobuf.WireFormat$FieldType: com.google.protobuf.WireFormat$FieldType[] values()
+com.google.protobuf.WireFormat$FieldType: com.google.protobuf.WireFormat$FieldType valueOf(java.lang.String)
+com.google.protobuf.WireFormat$FieldType: com.google.protobuf.WireFormat$FieldType[] values()
+com.google.protobuf.WireFormat$FieldType: com.google.protobuf.WireFormat$FieldType valueOf(java.lang.String)
+com.google.protobuf.WireFormat$FieldType: com.google.protobuf.WireFormat$FieldType[] values()
+com.google.protobuf.WireFormat$FieldType: com.google.protobuf.WireFormat$FieldType valueOf(java.lang.String)
+com.urbanairship.iap.Inventory$Status: com.urbanairship.iap.Inventory$Status[] values()
+com.urbanairship.iap.Inventory$Status: com.urbanairship.iap.Inventory$Status valueOf(java.lang.String)
+com.urbanairship.AirshipConfigOptions$TransportType: com.urbanairship.AirshipConfigOptions$TransportType[] values()
+com.urbanairship.AirshipConfigOptions$TransportType: com.urbanairship.AirshipConfigOptions$TransportType valueOf(java.lang.String)
+com.urbanairship.iap.Inventory$FilterType: com.urbanairship.iap.Inventory$FilterType[] values()
+com.urbanairship.iap.Inventory$FilterType: com.urbanairship.iap.Inventory$FilterType valueOf(java.lang.String)
+com.urbanairship.push.proto.Messages$AirshipMethod: com.urbanairship.push.proto.Messages$AirshipMethod[] values()
+com.urbanairship.push.proto.Messages$AirshipMethod: com.urbanairship.push.proto.Messages$AirshipMethod valueOf(java.lang.String)
+com.urbanairship.push.proto.Rpc$Status: com.urbanairship.push.proto.Rpc$Status[] values()
+com.urbanairship.push.proto.Rpc$Status: com.urbanairship.push.proto.Rpc$Status valueOf(java.lang.String)
+com.urbanairship.iap.marketinterface.Consts$PurchaseState: com.urbanairship.iap.marketinterface.Consts$PurchaseState[] values()
+com.urbanairship.iap.marketinterface.Consts$PurchaseState: com.urbanairship.iap.marketinterface.Consts$PurchaseState valueOf(java.lang.String)
+com.urbanairship.push.proto.Messages$OS: com.urbanairship.push.proto.Messages$OS[] values()
+com.urbanairship.push.proto.Messages$OS: com.urbanairship.push.proto.Messages$OS valueOf(java.lang.String)
+com.google.protobuf.WireFormat$JavaType: com.google.protobuf.WireFormat$JavaType[] values()
+com.google.protobuf.WireFormat$JavaType: com.google.protobuf.WireFormat$JavaType valueOf(java.lang.String)
+com.urbanairship.iap.Product$Status: com.urbanairship.iap.Product$Status[] values()
+com.urbanairship.iap.Product$Status: com.urbanairship.iap.Product$Status valueOf(java.lang.String)
+com.urbanairship.iap.marketinterface.Consts$ResponseCode: com.urbanairship.iap.marketinterface.Consts$ResponseCode[] values()
+com.urbanairship.iap.marketinterface.Consts$ResponseCode: com.urbanairship.iap.marketinterface.Consts$ResponseCode valueOf(java.lang.String)
+com.urbanairship.iap.PurchaseNotificationInfo$NotificationType: com.urbanairship.iap.PurchaseNotificationInfo$NotificationType[] values()
+com.urbanairship.iap.PurchaseNotificationInfo$NotificationType: com.urbanairship.iap.PurchaseNotificationInfo$NotificationType valueOf(java.lang.String)
+com.google.protobuf.WireFormat$FieldType: com.google.protobuf.WireFormat$FieldType[] values()
+com.google.protobuf.WireFormat$FieldType: com.google.protobuf.WireFormat$FieldType valueOf(java.lang.String)
+com.urbanairship.analytics.InstrumentedActivity
+com.bytefly.adventuremap.PushPreferencesActivity
+com.bytefly.adventuremap.MainActivity
+com.urbanairship.analytics.InstrumentedListActivity
+com.bytefly.adventuremap.MyApplication
+com.urbanairship.iap.marketinterface.BillingService
+com.urbanairship.push.PushService
+com.urbanairship.iap.marketinterface.BillingReceiver
+com.urbanairship.push.c2dm.C2DMPushReceiver
+com.urbanairship.CoreReceiver
+com.bytefly.adventuremap.IntentReceiver

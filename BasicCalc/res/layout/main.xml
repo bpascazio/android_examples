@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:orientation="vertical" android:layout_gravity="center_vertical">
+	<Button android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="@string/button_title_center"
+		android:id="@+id/button1" android:layout_gravity="center"></Button>
+	<TextView android:text="@string/hello" android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:layout_gravity="left" />
+	<Button android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="@string/button_title_right"
+		android:id="@+id/button2" android:layout_gravity="right"></Button>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/hello_center" android:layout_gravity="center"/>
+	<LinearLayout android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1" android:layout_width="match_parent">
+		<TextView android:text="TextView" android:id="@+id/textView1"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<Button android:text="Button" android:id="@+id/button3"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+</LinearLayout>

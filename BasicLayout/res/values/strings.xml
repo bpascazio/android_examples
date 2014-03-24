@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="button1text">Linear Layout In 2012</string>
+    <string name="app_name">BasicLayout</string>
+    <string name="hello">Hello Layout App</string>
+</resources>

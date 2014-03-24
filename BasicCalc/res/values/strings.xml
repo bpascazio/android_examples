@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, BasicCalcActivity!</string>
+    <string name="app_name">BasicCalc</string>
+    <string name="button_title_center">Run Toast</string>
+    <string name="button_title_right">Run Calculator</string>
+    <string name="hello_center">Hello from the center!</string>
+</resources>
